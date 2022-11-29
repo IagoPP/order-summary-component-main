@@ -7,20 +7,32 @@ body {
     background-color: aqua;
     font-family: 'Red Hat Display', sans-serif;
 }
+#topimg img{
+    width: 375px;
+    border-radius: 25px 25px 0 0;
+}
 p{
-    font-size: 16px;
-    
+    font-size: 16px;  
 }
 h1{
     font-weight:900;
 }
 
-div:nth-child(2) > p{
+div:nth-child(3) > p{
     inline-size: 17em;
     text-align: center;
 }
-div:nth-child(3){
+#sub{
     background: hsl(225, 100%, 98%);
+}
+#sub p{
+    display: flex;
+}
+#sub p:first-child{
+    font-weight:900;
+}
+#cancel{
+    font-weight:700;
 }
 
 .main div{
@@ -31,5 +43,6 @@ div:nth-child(3){
     background:white;
     width: 375px;
     margin: auto;
+    border-radius: 25px 25px 25px 25px;
 
 }
