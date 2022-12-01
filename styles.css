@@ -33,7 +33,6 @@ div:nth-child(3) > p{
     text-align: center;
 }
 
-
 #sub{
     background: hsl(225, 100%, 98%);
     margin-left: 25px;
@@ -46,6 +45,7 @@ div:nth-child(3) > p{
 #sub div{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 #sub img{
     height: 50px;
