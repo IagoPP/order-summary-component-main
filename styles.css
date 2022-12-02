@@ -17,7 +17,7 @@ body {
 }
 p{
     font-size: 16px; 
-    color: hsl(224, 23%, 55%) 
+    color: hsl(224, 23%, 55%);
 }
 #text{
     margin-top: 5px;
@@ -26,10 +26,10 @@ p{
 h2{
     font-weight:900;
     margin-top: 35px;
+    color: hsl(223, 47%, 23%);
 }
-
 div:nth-child(3) > p{
-    inline-size: 17em;
+    inline-size: 18em;
     text-align: center;
 }
 
@@ -41,24 +41,43 @@ div:nth-child(3) > p{
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
 }
 #sub div{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    padding-right: 50px;
+    color: hsl(224, 23%, 55%) ;
 }
 #sub img{
     height: 50px;
     width: 50px;
+    padding-left: 17px;
 }
-#sub p:first-child{
+#sub span:first-child{
     font-weight:900;
+    color: hsl(223, 47%, 23%);
+}
+#sub a{
+    padding-right: 18px;
+    padding-top: 13px;
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+}
+#sub a:hover{
+    color: hsl(245, 76%, 65%);
 }
 #cancel{
     font-weight:700;
     background: none;
     border: none;
     color: hsl(224, 23%, 55%);
+}
+#cancel:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
 }
 #pay{
     margin-top: 25px;
@@ -74,6 +93,10 @@ div:nth-child(3) > p{
     border: none;
     font-weight:700;
     box-shadow: 0px 10px 20px hsl(244, 88%, 84%);
+}
+#pay:hover{
+    background-color: hsl(245, 76%, 65%);
+    cursor: pointer;
 }
 
 .main > div{
